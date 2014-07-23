@@ -18,7 +18,6 @@ public class SampleActivity extends Activity {
 		setContentView(R.layout.activity_sample);
 		
 		final CreditCardEditText et = (CreditCardEditText) findViewById(R.id.activity_sample_et);
-		et.setCardFlags(false);
 		
 		Button bt = (Button) findViewById(R.id.activity_sample_button);
 		

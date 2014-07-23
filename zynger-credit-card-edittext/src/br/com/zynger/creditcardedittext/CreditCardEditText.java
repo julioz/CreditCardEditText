@@ -31,9 +31,6 @@ public class CreditCardEditText extends RelativeLayout {
 		mNumberEditText = new CreditCardNumberEditText(getContext());
 		addView(mNumberEditText);
 		
-		// XXX: delete me
-		mNumberEditText.setText("49168496505667");
-		
 		mFormEditText = new CreditCardFormEditText(getContext());
 		mFormEditText.setVisibility(View.INVISIBLE);
 		addView(mFormEditText);
